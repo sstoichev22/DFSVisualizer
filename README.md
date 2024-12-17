@@ -11,3 +11,6 @@ The 2d array visual allows you to select blocks that can be walls, it will updat
 
 The tree visualizer allows you to go through the nodes of dfs pathing, the blue nodes show the fastest path to the current node and the yellow nodes represent the visited, likewise the red are unvisited,
 
+
+### Note
+This code uses objects a library I made called SGT(Swing GamePanel Template), download the jar and append it to your project structure to use the code.
