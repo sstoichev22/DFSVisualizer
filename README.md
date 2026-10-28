@@ -1,16 +1,10 @@
-﻿# DFSVisualizer
- This is a visualizer for DFS in a 2d array graph and a tree graph. 
-## 2D Array
-![Demo Animation](gifs/graphgif.gif)
+# Algorithm Visualizer
 
-The 2d array visual allows you to select blocks that can be walls, it will update real time even after or during the animation, you can pause, reset, bo forward and back through the dfs pathing.
+Small Java Swing visualizations for exploring depth-first traversal.
 
+## Visualizations
+- **Tree:** steps through a fixed binary tree traversal and highlights the active path.
+- **Graph:** explores a 10 × 10 grid with walls, selectable start position, step navigation, and playback controls.
 
-## Tree
-![Demo Animation](gifs/treegif.gif) 
-
-The tree visualizer allows you to go through the nodes of dfs pathing, the blue nodes show the fastest path to the current node and the yellow nodes represent the visited, likewise the red are unvisited,
-
-
-### Note
-This code uses objects a library I made called SGT(Swing GamePanel Template), download the jar and append it to your project structure to use the code.
+## Run
+Open the project in an IDE with Java support. The visualizations use the SGT drawing library; configure that dependency before running `tree` or `graph`.
